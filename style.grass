@@ -1,0 +1,196 @@
+node {
+  diameter: 50px;
+  color: #A5ABB6;
+  border-color: #9AA1AC;
+  border-width: 2px;
+  text-color-internal: #FFFFFF;
+  font-size: 10px;
+}
+relationship {
+  color: #A5ABB6;
+  shaft-width: 1px;
+  font-size: 8px;
+  padding: 3px;
+  text-color-external: #000000;
+  text-color-internal: #FFFFFF;
+  caption: "<type>";
+}
+node.People {
+  color: #7fffd4;
+  border-color: #65cca9;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.Spot {
+  color: #f29b1a;
+  border-color: #a96c12;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{country}";
+}
+node.Country {
+  color: #b30016;
+  border-color: #7d000f;
+  text-color-internal: #FFFFFF;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.Inscription {
+  color: #700517;
+  border-color: #590412;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+node.Province {
+  color: #485d4a;
+  border-color: #324133;
+  text-color-internal: #FFFFFF;
+  caption: "{name}";
+}
+node.Literature {
+  color: #9fc5e8;
+  border-color: #6f89a2;
+  text-color-internal: #2A2C34;
+  defaultCaption: "<id>";
+  caption: "{name}";
+}
+node.FindSpot {
+  defaultCaption: "<id>";
+  caption: "{name}";
+  color: #800080;
+  border-color: #660066;
+  text-color-internal: #FFFFFF;
+}
+node.Epitaph {
+  defaultCaption: "<id>";
+  color: #bea24e;
+  border-color: #857136;
+  text-color-internal: #FFFFFF;
+}
+node.Defixio {
+  defaultCaption: "<id>";
+  color: #ff14bd;
+  border-color: #b20e84;
+  text-color-internal: #FFFFFF;
+}
+node.Acclamation {
+  defaultCaption: "<id>";
+  color: #a88fac;
+  border-color: #756478;
+  text-color-internal: #FFFFFF;
+}
+node.Mile-/Leaguestone {
+  defaultCaption: "<id>";
+  color: #faf9f0;
+  border-color: #c8c7c0;
+  text-color-internal: #2A2C34;
+}
+node.Calendar {
+  defaultCaption: "<id>";
+  color: #89976b;
+  border-color: #6c7d47;
+  text-color-internal: #FFFFFF;
+}
+node.Elogium {
+  defaultCaption: "<id>";
+  color: #444444;
+  border-color: #222222;
+  text-color-internal: #FFFFFF;
+}
+node.Label {
+  defaultCaption: "<id>";
+  color: #311e61;
+  border-color: #221543;
+  text-color-internal: #FFFFFF;
+}
+node.Letter {
+  defaultCaption: "<id>";
+  color: #fff29c;
+  border-color: #b2a96d;
+  text-color-internal: #2A2C34;
+}
+node.List {
+  defaultCaption: "<id>";
+  color: #612e00;
+  border-color: #432000;
+  text-color-internal: #FFFFFF;
+}
+node.Prayer {
+  defaultCaption: "<id>";
+  color: #d3ffce;
+  border-color: #93b290;
+  text-color-internal: #2A2C34;
+}
+node.Adnuntiatio {
+  defaultCaption: "<id>";
+  color: #5d5373;
+  border-color: #4a425c;
+  text-color-internal: #FFFFFF;
+}
+node.Assignation inscription {
+  defaultCaption: "<id>";
+  color: #604A0E;
+  border-color: #423204;
+  text-color-internal: #FFFFFF;
+}
+node.Boundary inscription {
+  defaultCaption: "<id>";
+  color: #C990C0;
+  border-color: #b261a5;
+  text-color-internal: #FFFFFF;
+}
+node.Building/dedicatory inscription {
+  defaultCaption: "<id>";
+  color: #F79767;
+  border-color: #f36924;
+  text-color-internal: #FFFFFF;
+}
+node.Honorific inscription {
+  defaultCaption: "<id>";
+  color: #57C7E3;
+  border-color: #23b3d7;
+  text-color-internal: #2A2C34;
+}
+node.Identification inscription {
+  defaultCaption: "<id>";
+  color: #F16667;
+  border-color: #eb2728;
+  text-color-internal: #FFFFFF;
+}
+node.Military diploma {
+  defaultCaption: "<id>";
+  color: #D9C8AE;
+  border-color: #c0a378;
+  text-color-internal: #2A2C34;
+}
+node.Owner/artist inscription {
+  defaultCaption: "<id>";
+  color: #8DCC93;
+  border-color: #5db665;
+  text-color-internal: #2A2C34;
+}
+node.Private legal inscription {
+  defaultCaption: "<id>";
+  color: #ECB5C9;
+  border-color: #da7298;
+  text-color-internal: #2A2C34;
+}
+node.Public legal inscription {
+  defaultCaption: "<id>";
+  color: #4C8EDA;
+  border-color: #2870c2;
+  text-color-internal: #FFFFFF;
+}
+node.Seat inscription {
+  defaultCaption: "<id>";
+  color: #FFC454;
+  border-color: #d7a013;
+  text-color-internal: #2A2C34;
+}
+node.Votive inscription {
+  defaultCaption: "<id>";
+  color: #DA7194;
+  border-color: #cc3c6c;
+  text-color-internal: #FFFFFF;
+}
